@@ -7,31 +7,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <title>Document</title>
 </head>
 <body>
   <header class="header">
-    <div class="container">    
+    <div class="container header-container">    
       <a href="" class="header__logo">
         <img src="images/cyberpunk_logo1.svg" alt="kyberpank logo">
       </a>
-      <ul class="cosial header__social">
-        <li class="social">
+      <ul class="social header__social list-reset">
+        <li class="social__item">
           <a href="" class="social__link youtube-item" aria-label></a>
         </li>
-        <li class="social">
+        <li class="social__item">
           <a href="" class="social__link facebook-icon"></a>
         </li>
-        <li class="social">
+        <li class="social__item">
           <a href="" class="social__link twiter-icon"></a>
         </li>
-        <li class="social">
+        <li class="social__item">
           <a href="" class="social__link some-icon"></a>
         </li>
-        <li class="social">
+        <li class="social__item">
           <a href="" class="social__link instagrame-icon"></a>
         </li>
-        <li class="social">
+        <li class="social__item">
           <a href="" class="social__link vk-icon"></a>
         </li>
       </ul>
@@ -40,18 +41,12 @@
   </header>
   <main class="main">
     <section class="hero">
-      <h1 class="visually-hidden">Promo kyberpank</h1>
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image: url();"></div>
-        <div class="swiper-slide" style="background-image: url();"></div>
-        <div class="swiper-slide" style="background-image: url();"></div>
-      </div>
-
+     <h1 class="element-invisible">Promo kyberpank</h1>
       <div class="container hero__container">
         <div class="hero__info corner-block">
           <h2 class="hero-info__title">Available on all platforms</h2>
-          <button class="btn-reset hero-info__button">To learn more</button>
-        </div>
+          <button class="btn-reset hero-info__btn">To learn more</button>
+         </div>
       </div>
     </section>
 
@@ -85,17 +80,17 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consectetur aperiam ipsa veritatis voluptate similique excepturi sapiente error. Ipsum, perspiciatis.
         </p>
         <div class="game__content">
-          <form action="" class="game__form form">
+          <form class="game__form form">
             <input type="text" class="form__inpun">
             <input type="email" class="form__input">
-            <label for="" class="form-lable">
+            <label class="form-lable">
               <input type="file" class="form-lable__file">
               <span class="form-lable__text">Add scrinshot</span>
               <span class="form-lable__images">.png/.jpg./pdf</span>
             </label>
             <button class="form__btn btn-reset"> Send</button>
             <label class="form__chackbox checkbox">
-              <input type="" class="checkbox__input">
+              <input type="text" class="checkbox__input">
               <span class="checkbox__text"></span>
             </label>
           </form>
@@ -110,8 +105,8 @@
         <div class="hp__left">
           <img src="images/motinor.png" alt="monitor hp">
           <div class="hp__logos">
-            <a href="" class="hp__logo"></a>
-              <img src="images/hp-logo.svg"></img>
+            <a href="" class="hp__logo">
+              <img src="images/hp-logo.svg" alt="hp logo">
             </a>
             <a href="" class="hp__logo">
               <img src="images/x-logo.svg" alt="separator">
@@ -127,7 +122,7 @@
           <p class="hp__descr">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus recusandae est alias quo adipisci nam inventore distinctio dignissimos saepe dicta sit, nesciunt eligendi dolor commodi hic blanditiis incidunt quaerat.
           </p>
-          <ul class="hp__list">
+          <ul class="hp__list list-reset">
             <li class="hp__item" style="background-image: url(images/play1.svg); background-repeat: no-repeat;">Lorem ipsum dolor sit consectetur.</li>
             <li class="hp__item" style="background-image: url(images/play2.svg); background-repeat: no-repeat;">Lorem ipsum dolor sit.</li>
             <li class="hp__item" style="background-image: url(images/play3.svg); background-repeat: no-repeat;">Lorem ipsum dolor sit amet.</li>
@@ -145,13 +140,13 @@
         <div class="buy__content">
           <h2 class="site-title buy__title">Buy cyberpunk game</h2>
           <p class="site__subtitle">The kit includes</p>
-          <ul class="buy__list">
+          <ul class="buy__list list-reset">
             <li class="by__item" style="background-image: url(images/buy1.png); background-repeat: no-repeat"></li>
             <li class="by__item" style="background-image: url(images/buy2.png); background-repeat: no-repeat"></li>
             <li class="by__item" style="background-image: url(images/buy3.png); background-repeat: no-repeat"></li>
           </ul>
           <p class="sity__subtitle">Select platform</p>
-          <ul class="platforms-list">
+          <ul class="platforms-list list-reset">
             <li class="platforms-list__imtem">
               <a href="" class="platforms__link">
                 <img src="images/platform-icon1.svg" alt="PC platform" class="">
@@ -164,12 +159,12 @@
             </li>
             <li class="platforms-list__imtem">
               <a href="" class="platforms__link">
-                <img src="images/platform-icon3.svg" alt="Stadia plftform" class="";>
+                <img src="images/platform-icon3.svg" alt="Stadia plftform" class="">
               </a>
             </li>
             <li class="platforms-list__imtem">
               <a href="" class="platforms__link">
-                <img src="images/platform-icon4.svg" alt="ps4 platform" class="";>
+                <img src="images/platform-icon4.svg" alt="ps4 platform" class="">
               </a>
             </li>
           </ul>
@@ -185,7 +180,7 @@
               <img src="images/cyberpunk_logo1.svg" alt="cyberpunk-logo">
             </a>
             <a href="" class="footer__link">
-              <img src="images/CD_Projekt_logo 1.svg" alt="CD progekt logo">
+              <img src="images/CD_Projekt_logo1.svg" alt="CD progekt logo">
             </a>
           </div>
           <div class="footer__right">

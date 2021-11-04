@@ -1,0 +1,85 @@
+/* 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+header {
+    height: 1000px;
+    background-image: url(../images/11.jpg);
+}
+.container {
+    max-width: 1280px;
+    margin: auto;
+  
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 296px;
+    height: 73px;
+    position: relative;
+    margin-top: 20px;
+}
+.logo .logo-blue {
+    position: absolute;
+    top: 63px;
+    left: 170px;
+}
+.header_cosial_icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    width: 30%;
+}
+header ul {
+    list-style: none;
+}
+.header_icon_item {
+    height: 30px;
+    width: 30px;
+}
+.youtube-item {
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/YouTube.png);
+    background-repeat: none;
+}
+.vk-icon {
+    background: url(../images/Vector-7.png);
+    background-repeat: none;
+}
+.facebook-icon {
+    background: url(../images/Vector-8.png);
+}
+.twiter-icon {
+    background: url(../images/Vector-9.png);
+}
+.some-icon {
+    background: url(../images/Vector-10.png);
+    background-repeat: none;
+}
+
+.instagrame-icon {
+    background: url(../images/Vector-11.png);
+}
+
+
+
+.header_acces {
+    width: 624px;
+    height: 369px;
+    background: #F8F200;
+  
+}
+
+ */

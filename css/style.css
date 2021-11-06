@@ -422,6 +422,173 @@ a {
   justify-content: center;
 }
 
+/*Media*/
+
+@media (max-width: 1150px) {
+
+  .container {
+    max-width: 952px;
+  }
+  .hero {
+    background-image: url(../images/hero-1024.png);
+  }
+  .about__title {
+    min-width: 60%;
+  }
+  .about__desrc {
+    min-width: 85%;
+  }
+  .about__images {
+    grid-template-areas: 
+      'im1 im1 im2 im2'
+      'im3 im3 im3 im3'
+      'im3 im3 im3 im3';
+  }
+ 
+.game__title .site-title {
+  top: 80px;
+  left: -142px;
+}
+.game__descr {
+  position: relative;
+  top: 100px;
+  max-width: 460px;
+}
+.game__content {
+  max-width: 460px;
+}
+.game__form {
+  width: 100%;
+  margin-top: 35px;
+}
+.game__image {
+  background-image: url(../images/play-1024.png);
+  margin-right: 18px;
+  max-width: 460px;
+  min-height: 844px;
+  bottom: 140px;
+  position: absolute;
+  right: 0;
+}
+.hp__logos {
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+
+}
+.hp__item {
+  min-height: 32px;
+  line-height: 1;
+  margin: 20px 0;
+}
+.hp__title {
+  max-width: 90%;
+}
+.form-lable__images {
+  left: 83px;
+}
+@media (max-width:875px) {
+  body {
+    font-size: 16px;
+  }
+  .site-title {
+    font-size: 30px;
+  }
+  .container {
+    padding: 0 12px;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__logo {
+    display: flex;
+    justify-content: center;
+  }
+  .social__item:not(:last-child) {
+    margin-right: 23px;
+  }
+  .site-title {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .hero-info__button {
+    margin-top: 0;
+  }
+  .hero-info__button {
+    font-size: 20px;
+  }
+  .hero__info {
+    padding: 30px 55px;
+  }
+  
+  .about__images {
+    grid-template-areas: 
+    'im1 im1'
+    'im2 im2'
+    'im3 im3'
+    'im3 im3';
+  }
+  .game__image {
+    background-image: url(../images/play-320.png);
+    background-repeat: no-repeat;
+    bottom: 150px;
+  }
+  .game__title .site-title {
+    top: 155px;
+    left: 40px;
+  }
+  .game__descr {
+    top: 158px;
+  }
+  .game__form {
+    margin-top: 75px;
+  }
+  .buy-container {
+    flex-direction: column;
+  }
+  .hp .hp-container {
+    flex-direction: column;
+  }
+  .hp__right {
+    max-width: 100%;
+  }
+  .buy__platforms-subtitle {
+    margin-top: 50px;
+  }
+  .buy__content {
+    padding: 20px 12px 0 12px;
+  }
+  .platforms-list {
+    width: 100%;
+  }
+  .platforms-list__imtem {
+    width: 112px;
+  }
+  .footer .container {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+@media (max-width: 320px) {
+
+  .container {
+    max-width: 296px;
+  }
+  .form-lable__text {
+    top: 28%;
+    left: 84px;
+  }
+  .form-lable__images {
+    left: -16px;
+  }
+  .hero {
+    background-image: url(../images/hero-320.png);
+  }
+ 
+  
+}
 
 
 

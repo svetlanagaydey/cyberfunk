@@ -73,22 +73,21 @@
 
     <section class="game">
       <div class="container">
-        
-          <div class="game__title">
-            <img src="images/play-star.svg" alt="">
-            <h2 class="site-title">Play and win</h2>
-          </div>
-          <p class="game__descr">
-            Lorem <span class="highligt">Cyberpunk 2077</span> ipsum dolor sit amet <span class="highligt">Xbox Series X </span> or <span class="highligt"> Sony PlanStation 5!</span> consectetur adipisicing elit. Corrupti consectetur aperiam ipsa veritatis voluptate similique excepturi sapiente error. Ipsum, perspiciatis.
-          </p>
+        <div class="game__title">
+          <img src="images/play-star.svg" alt="">
+          <h2 class="site-title">Play and win</h2>
+        </div>
+        <p class="game__descr">
+          Lorem <span class="highligt">Cyberpunk 2077</span> ipsum dolor sit amet <span class="highligt">Xbox Series X </span> or <span class="highligt"> Sony PlanStation 5!</span> consectetur adipisicing elit. Corrupti consectetur aperiam ipsa veritatis voluptate similique excepturi sapiente error. Ipsum, perspiciatis.
+        </p>
         <div class="game__content">
           <form class="game__form form">
             <input type="text" class="form__inpun" placeholder="What is your name?">
             <input type="email" class="form__input" placeholder="Your email:">
             <label class="form-lable">
               <input type="file" class="form-lable__file" >
-              <span class="form-lable__text">Add scrinshot</span>
-              <span class="form-lable__images">.png/.jpg./pdf</span>
+                <span class="form-lable__text">Add scrinshot</span>
+                <span class="form-lable__images">.png/.jpg./pdf</span>
             </label>
             <button class="form__btn btn-reset"> Send</button>
             <label class="form__chackbox checkbox">
@@ -96,7 +95,7 @@
               <span class="checkbox__text"></span>
             </label>
           </form>
-        <div class="game__image"></div>
+          <div class="game__image"></div>
           <!-- <img src="images/play-im.png" alt="" > -->
         </div>
       </div>
@@ -106,6 +105,8 @@
       <div class="container hp-container">
         <div class="hp__left">
           <picture class="ph-img">
+            <source media="(max-width: 560px)" srcset="images/hp320.png">
+            <source media="(max-width: 1024px)" srcset="images/hp-1024.png">
             <img src="images/motinor.png" alt="monitor hp">
           </picture>
           <div class="hp__logos">
@@ -139,6 +140,9 @@
     <section class="buy"> 
       <div class="buy-container">
         <picture class="buy__image">
+          <source media="(max-width: 560px)" srcset="images/buy320.jpg">
+
+          <source media="(max-width: 1024px)" srcset="images/buy1024.jpg">
           <img src="images/buy.jpg" alt="cover">
         </picture>
         <div class="buy__content">
@@ -194,7 +198,7 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <p class="copyright"> CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
+        <small class="copyright"> CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</small>
       </div>
     </footer>
 
